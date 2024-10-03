@@ -55,3 +55,17 @@ L'événement `load` en JavaScript est déclenché lorsque tous les éléments d
 - Les vidéos et fichiers multimédias
 - Les iframes
 - Les scripts et autres ressources externes
+
+## La balise `script`
+
+```javascript
+<script src="script.js"></script>
+```
+
+## Opérateurs d'incrément
+
+En JavaScript, tu peux utiliser différents opérateurs pour incrémenter une variable :
+
+- l'opérateur d'incrément `++` pour augmenter la valeur de un : c'est un raccourci pour `+= 1`
+- l'opérateur d'incrément `+=` pour augmenter la valeur tout en assignant le résultat : `a += 1` est un raccourci pour `a = a + 1`
+- l'opérateur d'incrément `+` est l'opérateur "normal" pour faire une addition : celui que tu connais depuis toujours. L'opérateur + ne fait "que" une addition : pour stocker le résultat dans une variable, tu dois utiliser - l'opérateur = dans ton instruction.
