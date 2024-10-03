@@ -1,5 +1,22 @@
 # JavaScript
 
+## Histoire
+
+`JavaScript` a été conçu par **Brendan Eich** pour être utilisé côté `frontend` (dans le navigateur donc). Mais depuis 2009, il est possible de créer du code `backend` (côté serveur donc) avec `NodeJS` ! 
+
+Bien que leurs noms semblent similaires, `JavaScript` est totalement différent de `Java`.
+JS est appelé JavaScript car quand il a été créé, Java était populaire, donc les créateurs ont pensé qu'ajouter Java dans son nom le rendrait plus accessible.
+
+## ECMAScript Standards
+
+Comme tout langage de programmation, JavaScript a son lot de règles et de spécifications. Ces specs sont implémentées dans un standard appelé `ECMAScript (ES)`.
+
+Chaque nouvelle version d'`ECMAScript` vient avec des nouvelles features, des nouvelles normes sur la façon d'écrire le JavaScript.
+
+`ES6` a été introduit en **2015** et a ajouté de nombreuses fonctionnalités au langage.
+
+JavaScript à partir d'ES6 et au-delà (ES6+) est parfois appelé le **JavaScript moderne**.
+
 ## DOMContentLoaded
 
 ### À quoi ça sert ?
@@ -23,10 +40,14 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Le document est entièrement chargé et analysé.");
     // Ici, vous pouvez manipuler le DOM
 });
+
 ```
+
 ## L'événement `load`
 
-L'événement `load` en JavaScript est déclenché lorsque tous les éléments de la page (y compris le HTML, les feuilles de style CSS, les images, les iframes et les scripts) ont été complètement chargés. `load` attend donc que toutes les ressources soient prêtes :
+L'événement `load` en JavaScript est déclenché lorsque tous les éléments de la page (y compris le HTML, les feuilles de style CSS, les images, les iframes et les scripts) ont été complètement chargés.
+
+`load` attend donc que toutes les ressources soient prêtes telles que :
 
 - Le HTML
 - Les styles CSS
