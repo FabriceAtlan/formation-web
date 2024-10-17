@@ -83,7 +83,7 @@ localStorage.removeItem('score');
 localStorage.clear();
 ```
 
-### sessionStorage` - Exemple d'utilisation
+### sessionStorage - Exemple d'utilisation
 
 ```javascript
 // Stocker une donnée de session
