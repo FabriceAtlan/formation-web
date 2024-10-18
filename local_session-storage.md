@@ -160,3 +160,13 @@ for (let i = 0; i < localStorage.length; i++) {
     console.log(`Clé: ${key}, Valeur: ${value}`);
 }
 ```
+
+### Caractéristiques
+
+| **Caractéristique**          | **Détails**                                              |
+|------------------------------|----------------------------------------------------------|
+| **Durée de vie**              | Pas de gestion, n'arrive pas à expiration                |
+| **Limite de taille**          | Aux alentours de 2 Mo, paramétrable par l'utilisateur    |
+| **Lecture par le serveur**    | Non                                                      |
+| **Écriture par le serveur**   | Non                                                      |
+| **Risque d'interception**     | Uniquement en local                                      |
