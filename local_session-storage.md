@@ -122,7 +122,7 @@ console.log(storedInventory); // ['épée', 'bouclier', 'potion']
 
 Ce code fonctionne également avec `sessionStorage`, en remplaçant simplement `localStorage` par `sessionStorage`.
 
-### Compter le nombre de clé
+### Retourner une clé par son index
 
 `key` Cette méthode retourne le nom de la clé à l'index fourni :
 
