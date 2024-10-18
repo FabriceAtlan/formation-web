@@ -121,3 +121,42 @@ console.log(storedInventory); // ['épée', 'bouclier', 'potion']
 ```
 
 Ce code fonctionne également avec `sessionStorage`, en remplaçant simplement `localStorage` par `sessionStorage`.
+
+### Compter le nombre de clé
+
+`key` Cette méthode retourne le nom de la clé à l'index fourni :
+
+```javascript
+// Ajouter quelques éléments dans le localStorage
+localStorage.setItem('nom', 'Fabrice');
+localStorage.setItem('age', '47');
+localStorage.setItem('profession', 'Développeur Web');
+
+// Utiliser localStorage.key() pour récupérer la clé à un index donné
+for (let i = 0; i < localStorage.length; i++) {
+    let key = localStorage.key(i);
+    console.log(`Clé à l'index ${i}: ${key}, Valeur: ${localStorage.getItem(key)}`);
+}
+```
+
+### Nombre d'élément stocké
+
+`localStorage.length` retourne le nombre d'éléments stockés dans le localStorage :
+
+```javascript
+// Ajouter quelques éléments dans le localStorage
+localStorage.setItem('nom', 'Fabrice');
+localStorage.setItem('age', '35');
+localStorage.setItem('profession', 'Développeur Web');
+
+// Utiliser localStorage.length pour connaître le nombre d'éléments stockés
+console.log(`Nombre d'éléments dans le localStorage: ${localStorage.length}`);
+
+// Parcourir tous les éléments du localStorage
+for (let i = 0; i < localStorage.length; i++) {
+    // Utiliser localStorage.key() pour récupérer la clé à chaque index
+    let key = localStorage.key(i);
+    let value = localStorage.getItem(key);
+    console.log(`Clé: ${key}, Valeur: ${value}`);
+}
+```
