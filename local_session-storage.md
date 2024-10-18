@@ -170,6 +170,6 @@ for (let i = 0; i < localStorage.length; i++) {
 | **Lecture par le serveur**    | Non                                                      |
 | **Écriture par le serveur**   | Non                                                      |
 | **Risque d'interception**     | Uniquement en local                                      |
-| **Typede données**            | Données texte |
+| **Type de données**            | Données texte |
 | **Limitation d'accès** | Accès réservé au domaine du site en cours de consultation |
 | **Fiabilité de conservation** | Le stockage des données n'est pas garanti |
