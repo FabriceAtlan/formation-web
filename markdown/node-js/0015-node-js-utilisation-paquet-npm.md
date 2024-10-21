@@ -10,8 +10,6 @@
 
 - [Installation du package chalk](#installation-du-package-chalk)
 
-- [Ne jamais commit node_modules](#ne-jamais-commit-node_modules)
-
 - [Importer la dépendance chalk](#importer-la-dépendance-chalk)
 
 ### Comment utiliser les paquets NPM [^](#sommaire)
@@ -112,8 +110,6 @@ fabri@MSI MINGW64 ~/Downloads/formation-web/markdown/node-js/npm-getting-started
 $ ls
 chalk/
 ```
-
-### Ne jamais commit node_modules [^](#sommaire)
 
 **Important !** Ne **commit** et ne **pousse** **jamais** un dossier **node_modules** vers **github** ! Cela rendrait ton dépôt trop lourd. Un nouveau projet Node doit avoir un fichier **.gitignore** à la racine du projet, avec **node_modules** à l'intérieur.
 
