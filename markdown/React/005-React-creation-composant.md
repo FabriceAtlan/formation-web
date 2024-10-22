@@ -2,11 +2,35 @@
 
 ## Sommaire
 
+- [Qu'est-ce qu'un composant ?](#)
+
 - [React et le Pascal case](#react-et-le-pascal-case)
 
 - [Répertoire components](#react--création-dun-composant)
 
 - [import / export](#import--export)
+
+### Qu'est-ce qu'un composant ? [^](#sommaire)
+
+Un composant est un morceau d'une interface utilisateur :
+
+- Un composant pour la barre de navigation.
+
+- Un composant pour la partie de droite.
+
+- Un composant pour la partie centrale.
+
+- Un composant pour la partie de gauche.
+
+Il permet d'isoler cet élément et les interactions éventuelles qui y sont liées (un événement au clic par exemple).
+
+Dans `React`, les composants forment une hiérarchie. C'est-à-dire que certains composants sont imbriqués dans d'autres composants.
+
+### Pourquoi utiliser des composants ? [^](#sommaire)
+
+- Les composants sont réutilisables et extensibles.
+
+- Découper une interface complexe en composants permet de gagner du temps lors du développement et lors des phases de debug.
 
 ### React et le Pascal case [^](#sommaire)
 
