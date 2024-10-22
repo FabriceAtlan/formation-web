@@ -12,11 +12,15 @@
 
 ### Initialisation d'une application React avec Vite [^](#sommaire)
 
-- `npm create vite@latest my-react-app`
+- `npm create vite@latest nom_de_mon_application`
 
 #### Skipper l'étape du choix [^](#sommaire)
 
 - `npm create vite@latest nom_de_mon_application -- --template react-ts`
+
+### Se placer dans le dossier de l'application [^](#sommaire)
+
+- `cd nom_de_mon_application`
 
 ### Installation des dépendances [^](#sommaire)
 
