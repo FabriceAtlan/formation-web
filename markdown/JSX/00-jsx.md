@@ -1,4 +1,4 @@
-# JSX
+# JSX | Qu'est-ce que c'est?
 
 ## Sommaire
 
