@@ -4,6 +4,8 @@
 
 - [Qu'est-ce qu'un composant ?](#)
 
+- [Pourquoi utiliser des composants ?](#)
+
 - [React et le Pascal case](#react-et-le-pascal-case)
 
 - [Répertoire components](#react--création-dun-composant)
@@ -31,6 +33,8 @@ Dans `React`, les composants forment une hiérarchie. C'est-à-dire que certains
 - Les composants sont réutilisables et extensibles.
 
 - Découper une interface complexe en composants permet de gagner du temps lors du développement et lors des phases de debug.
+
+- Lorsque tu as des composants interactifs, le fait qu'ils aient leur propre code JavaScript permet de grandement limiter les bugs éventuels.
 
 ### React et le Pascal case [^](#sommaire)
 
