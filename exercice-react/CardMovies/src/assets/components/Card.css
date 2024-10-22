@@ -1,0 +1,37 @@
+:root {
+  --radius: 15px;
+}
+
+main > section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+  border-radius: var(--radius);
+  background-color: #4f6771;
+  transition: all .1s ease-in;
+}
+
+figure:hover {
+  cursor: pointer;
+  transform: scale(120%);
+  box-shadow: 0 0 10px 4px #c1c1c1;
+}
+
+figure img {
+  width: 150px;
+  height: auto;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+figcaption {
+  margin: 1rem;
+}
