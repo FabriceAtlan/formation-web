@@ -51,7 +51,7 @@ Puis, à la question `Select a variant`, choisis `Typescript` :
     Remix ↗
 ```
 
-### Changer le linter par défaut [^](#sommaire)
+### Changer le linter par défaut (optionnel) [^](#sommaire)
 
 L'installation de base intègre `eslint`. Faire les modifications suivantes pour utiliser biome
 
