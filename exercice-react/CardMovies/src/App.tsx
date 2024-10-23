@@ -1,9 +1,9 @@
-import './assets/components/Nav.css'
-import './assets/components/Card.css'
+import Header from './assets/components/Nav/Header'
+import { Card, newMovies } from './assets/components/Card/Card'
+import Footer from './assets/components/Nav/Footer'
 
-import Header from './assets/components/Header'
-import Card from './assets/components/Card'
-import Footer from './assets/components/Footer'
+import './assets/components/Nav/Nav.css'
+import './assets/components/Card/Card.css'
 
 function App() {
   return (
@@ -11,24 +11,27 @@ function App() {
       <Header />
       <main>
         <section>
-          {}
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card movie={newMovies[0]} />
+          <Card movie={newMovies[1]} />
+          <Card movie={newMovies[2]} />
+          <Card movie={newMovies[0]} />
+          <Card movie={newMovies[1]} />
+          <Card movie={newMovies[2]} />
+          <Card movie={newMovies[0]} />
+          <Card movie={newMovies[1]} />
+          <Card movie={newMovies[2]} />
+          <Card movie={newMovies[0]} />
+          <Card movie={newMovies[1]} />
+          <Card movie={newMovies[2]} />
+          <Card movie={newMovies[0]} />
+          <Card movie={newMovies[1]} />
+          <Card movie={newMovies[2]} />
+          <Card movie={newMovies[0]} />
+          <Card movie={newMovies[1]} />
+          <Card movie={newMovies[2]} />
+          <Card movie={newMovies[0]} />
+          <Card movie={newMovies[1]} />
+          <Card movie={newMovies[2]} />
         </section>
       </main>
       <Footer />

@@ -3,7 +3,7 @@ function Footer() {
 		<footer>
 			<nav>
 				<ul>
-					<li>Item 1</li>
+					<li><a href="#">Item 1</a></li>
 				</ul>
 			</nav>
 		</footer>

@@ -7,6 +7,7 @@ main > section {
   flex-flow: row wrap;
   justify-content: space-evenly;
   width: 100%;
+  height: auto;
 }
 
 figure {
@@ -27,8 +28,8 @@ figure:hover {
 }
 
 figure img {
-  width: 150px;
-  height: auto;
+  /* width: 150px;
+  height: auto; */
   border-radius: var(--radius) var(--radius) 0 0;
 }
 
