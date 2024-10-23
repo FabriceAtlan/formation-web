@@ -3,9 +3,9 @@ function Header() {
 		<header>
 			<nav>
 				<ul>
-					<li>Item 1</li>
-					<li>Item 2</li>
-					<li>Item 3</li>
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#">À l'affiche</a></li>
+					<li><a href="#">Prochainement</a></li>
 				</ul>
 			</nav>
 		</header>

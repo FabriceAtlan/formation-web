@@ -11,6 +11,14 @@ function App() {
       <Header />
       <main>
         <section>
+          {}
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
           <Card />
           <Card />
           <Card />
