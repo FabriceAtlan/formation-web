@@ -32,6 +32,24 @@ Dans une **approche impérative**, comme celle utilisée dans le **DOM natif** a
 
 En revanche, avec une **approche déclarative** comme celle de **React**, vous définissez simplement l'**état final** que vous souhaitez, et React s'occupe de **mettre à jour le DOM** en conséquence. L'interface utilisateur est synchronisée avec l'état de l'application. Chaque fois que cet état change, React réévalue le rendu de manière efficace.
 
+**Exemple :**
+
+**Imperatif (manipulation du DOM directement) :**
+
+```javascript
+const element = document.getElementById('myElement');
+element.innerHTML = 'Hello, world!';
+element.style.color = 'blue';
+```
+
+**Déclaratif (avec React) :**
+
+```javascript
+function MyComponent() {
+  return <div style={{ color: 'blue' }}>Hello, world!</div>;
+}
+```
+
 ### Initialisation d'une application React avec Vite [^](#sommaire)
 
 **La commande d'installation peut changer en fonction de la version de npm utilisée !**
