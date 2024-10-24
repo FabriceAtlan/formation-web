@@ -24,7 +24,13 @@ Ce dernier permet d'initialiser des **applications monopage** (**Single Page App
 
 Cela rend le développement web plus dynamique en permettant la mise à jour de l'interface utilisateur. Grâce au **DOM virtuel**, **React** optimise les mises à jour et améliore le performance de l'application.
 
-Le DOM virtuel est une représentation légère du DOM réel, qui permet à React de comparer efficacement les changements et d'appliquer uniquement les mise à jour nécessaires. Tout est géré par React, si bien que nous n'avons pas vraiment besoin de savoir comment cela fonctionne pour bien développer.
+Le **DOM virtuel** est une représentation légère du **DOM réel**, qui permet à **React** de comparer efficacement les changements et d'appliquer uniquement les mise à jour nécessaires. Tout est géré par **React**, si bien que nous n'avons pas vraiment besoin de savoir comment cela fonctionne pour bien développer.
+
+L'**approche déclarative** en **React** se réfère à la manière dont les développeurs écrivent du code pour décrire ce qu'ils veulent voir à l'écran, plutôt que d'écrire comment l'interface doit se construire étape par étape.
+
+Dans une **approche impérative**, comme celle utilisée dans le **DOM natif** avec **JavaScript**, vous devez spécifier chaque étape pour manipuler et mettre à jour le **DOM**. Par exemple, vous devez trouver un élément dans le **DOM**, le modifier, ajouter des événements, etc.
+
+En revanche, avec une **approche déclarative** comme celle de **React**, vous définissez simplement l'**état final** que vous souhaitez, et React s'occupe de **mettre à jour le DOM** en conséquence. L'interface utilisateur est synchronisée avec l'état de l'application. Chaque fois que cet état change, React réévalue le rendu de manière efficace.
 
 ### Initialisation d'une application React avec Vite [^](#sommaire)
 
