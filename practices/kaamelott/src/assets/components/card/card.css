@@ -1,0 +1,15 @@
+.card {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.card-wrapper {
+	padding: 1.5rem;
+}
+
+.card__img {
+	width: 90%;
+	height: auto;
+}
