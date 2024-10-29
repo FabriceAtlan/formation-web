@@ -4,6 +4,8 @@
 
 - [Un peu d'histoire](#un-peu-dhistoire)
 
+-[Qu'est-ce que React ?]()
+
 - [Initialisation d'une application React avec Vite](#initialisation-dune-application-react-avec-vite)
 
 - [Changer le linter par défaut](#changer-le-linter-par-défaut)
@@ -15,6 +17,38 @@ Suite à l'adoption massive de sa bibliothèque, en **2016** l'équipe en charge
 Ce dernier permet d'initialiser des **applications monopage** (**Single Page Application ou SPA**), d'avoir un **serveur de développement** (permettant notamment de reconstruire l'application lors de la modification des fichiers), de **construire** (**build**) l'application afin de la mettre en production, et tout un tas d'autres choses que tu trouveras sur la documentation officielle.
 
 **Le tout sans aucune configuration !**
+
+### Qu'est-ce que React ? [^](#sommaire)
+
+**React** a été lancé par **Facebook** en **2013**. Son approche basée sur les composants permet de diviser une application en parties réutilisables. Ils encapsulent la logique, l'état et la vue d'une partie spécifique de l'interface utilisateur.
+
+Cela rend le développement web plus dynamique en permettant la mise à jour de l'interface utilisateur. Grâce au **DOM virtuel**, **React** optimise les mises à jour et améliore le performance de l'application.
+
+Le **DOM virtuel** est une représentation légère du **DOM réel**, qui permet à **React** de comparer efficacement les changements et d'appliquer uniquement les mise à jour nécessaires. Tout est géré par **React**, si bien que nous n'avons pas vraiment besoin de savoir comment cela fonctionne pour bien développer.
+
+L'**approche déclarative** en **React** se réfère à la manière dont les développeurs écrivent du code pour décrire ce qu'ils veulent voir à l'écran, plutôt que d'écrire comment l'interface doit se construire étape par étape.
+
+Dans une **approche impérative**, comme celle utilisée dans le **DOM natif** avec **JavaScript**, vous devez spécifier chaque étape pour manipuler et mettre à jour le **DOM**. Par exemple, vous devez trouver un élément dans le **DOM**, le modifier, ajouter des événements, etc.
+
+En revanche, avec une **approche déclarative** comme celle de **React**, vous définissez simplement l'**état final** que vous souhaitez, et React s'occupe de **mettre à jour le DOM** en conséquence. L'interface utilisateur est synchronisée avec l'état de l'application. Chaque fois que cet état change, React réévalue le rendu de manière efficace.
+
+**Exemple :**
+
+**Imperatif (manipulation du DOM directement) :**
+
+```javascript
+const element = document.getElementById('myElement');
+element.innerHTML = 'Hello, world!';
+element.style.color = 'blue';
+```
+
+**Déclaratif (avec React) :**
+
+```javascript
+function MyComponent() {
+  return <div style={{ color: 'blue' }}>Hello, world!</div>;
+}
+```
 
 ### Initialisation d'une application React avec Vite [^](#sommaire)
 
