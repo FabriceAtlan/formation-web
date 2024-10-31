@@ -20,7 +20,7 @@
 
 ### Document Object Model [^](#sommaire)
 
-![Infographie - Dom](DOM-model.svg)
+![Infographie - Dom](./src/DOM-model.svg)
 
 ### Qu'est-ce que le DOM ? [^](#sommaire)
 
