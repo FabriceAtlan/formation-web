@@ -6,11 +6,13 @@
 
   - [Skipper l'étape du choix](#skipper-létape-du-choix)
 
-- [Se placer dans le dossier de l'application](#)
+- [Se placer dans le dossier de l'application](#se-placer-dans-le-dossier-de-lapplication)
 
 - [Installation des dépendances](#installation-des-dépendances)
 
 - [Lancement de l'application React en mode développement](#lancement-de-lapplication-react-en-mode-développement)
+
+- [Documentation React router](#documentation-react-router)
 
 - [Installation de `react-router-dom`](#installation-de-react-router-dom)
 
@@ -44,9 +46,11 @@
 
 - `npm run dev`
 
-### Installation de `react-router-dom` [^](#sommaire)
+### Documentation React router [^](#sommaire)
 
 **Documentation - [React router](https://reactrouter.com/en/main)**
+
+### Installation de `react-router-dom` [^](#sommaire)
 
 ```powershell
 npm install react-router-dom
